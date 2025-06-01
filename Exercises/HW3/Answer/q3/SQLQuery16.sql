@@ -1,0 +1,4 @@
+SELECT Published_Airline_IATA_Code +Operating_Airline_IATA_Code AS AirlineCodes
+INTO IATA_Code
+FROM Air_Traffic_Passenger_Statistics
+WHERE GEO_Summary = 'International'

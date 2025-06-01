@@ -1,0 +1,2 @@
+DELETE FROM Order1
+WHERE OrderDate < '2010-01-01'
